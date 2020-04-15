@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main-img img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid gainsboro;
+}
+
+
+.img-nav {
+    display: flex;
+    position: relative;
+    left: -40px;
+    top: -17px;
+    height: 32px;
+    width: 100%;
+}
+
+.img-nav li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.img-nav li img {
+    width: 93px;
+    height: 90px;
+}
+
+.img-nav li img:hover {
+    border: 1px solid green;
+}
+
+.price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-btns {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btns button {
+    width: 140px;
+    margin: 0 10px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 10px;
+    outline: none;
+    height: 100%;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.card-btns button:hover {
+    color: #000;
+
+}
